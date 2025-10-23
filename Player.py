@@ -35,6 +35,7 @@ class Player:
                 "ranking": self.ranking,
                 "number_of_games": self.number_of_games,
             },
+            ensure_ascii=False,
             sort_keys=True,
         )
     
